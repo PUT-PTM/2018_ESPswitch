@@ -1,12 +1,27 @@
-Urz¹dzenia:
-- ESP8266 NodeMCU v3
-- Wyœwietlacz LED
+# ESPswitch
 
-Sposób zamontowania:
+### Hardware
+ 
+ESP8266 NodeMCU v3
+ 
+LED Display
 
-Do wyœwietlacza LED pod³¹czamy dwoma pinami stany wysokie 3,3V, jeden do VCC, drugi do sektora na wyœwietlacza na którym maj¹ wyœwietlaæ siê cyfry.
+### Software
+ 
+Arduino IDE - with ESP8266 package
 
-Reszta pinów to GPIO, w zale¿noœci wysy³aj¹ stan wysoki lub niski na piny wyœwietlacza, podpiêtê s¹ w nastêpuj¹cy sposób:
+### Overview
+
+Project of displaying digits on LED display, by ESP module through WLAN
+
+### Description
+
+ESP module connects to local WiFi, puts web server by which it is controlled, next the module itself is connected to LED Display, which displays digits.
+
+## Pin connect pattern
+
+1-4 - 3,3V
+VCC - 3,3V
 a - PIN1(GPIO5)
 b - PIN2(GPIO4)
 c - PIN3(GPIO0)
@@ -15,3 +30,17 @@ e - PIN5(GPIO14)
 f - PIN6(GPIO12)
 g - PIN7(GPIO13)
 
+### How to use
+
+1. Adjust the code to Your WiFi settings, such as SSID and password, for letting ESP connect to your LAN
+2. Push the code into ESP module
+3. Once the connection to WiFi is established, put IP of the module into the web browser
+4. Chose button with digit
+5. Enjoy
+
+### Credit
+
+Adam SoÅ‚czak
+
+<hr>
+The project was conducted during the Microprocessor Lab course held by the Institute of Control and Information Engineering, Poznan University of Technology. Supervisor: Tomasz MaÅ„kowski
