@@ -20,7 +20,7 @@ ESP module connects to local WiFi, puts web server by which it is controlled, ne
 
 ## Pin connect pattern
 
-+ 1-4 - 3,3V
++ Digit 1-4 - 3,3V
 + VCC - 3,3V
 + a - PIN1(GPIO5)
 + b - PIN2(GPIO4)
