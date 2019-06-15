@@ -2,9 +2,11 @@
 
 ### Hardware
  
-ESP8266 NodeMCU v3
++ESP8266 NodeMCU v3
  
-LED Display
++LED Display
+
++micro-USB cable
 
 ### Software
  
@@ -12,11 +14,11 @@ Arduino IDE - with ESP8266 package
 
 ### Overview
 
-Project of displaying digits on LED display, by ESP module through WLAN
+Project of displaying digits on LED display by ESP module through WLAN
 
 ### Description
 
-ESP module connects to local WiFi, puts web server by which it is controlled, next the module itself is connected to LED Display, which displays digits.
+ESP module (powered through micro-USB cable) connects to local WiFi (need to provice SSID and password), puts web server by which it is controlled, next the module itself is connected to LED Display, which displays digits.
 
 ## Pin connect pattern
 
