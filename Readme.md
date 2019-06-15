@@ -33,7 +33,7 @@ ESP module connects to local WiFi, puts web server by which it is controlled, ne
 ### How to use
 
 1. Adjust the code to Your WiFi settings, such as SSID and password, for letting ESP connect to your LAN
-2. Push the code into ESP module
+2. Push the code into ESP module through USB cable
 3. Once the connection to WiFi is established, put IP of the module into the web browser
 4. Chose button with digit
 5. Enjoy
