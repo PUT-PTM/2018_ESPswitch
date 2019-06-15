@@ -27,7 +27,7 @@ ESP module (powered through micro-USB cable) connects to local WiFi (need to pro
 + a - PIN1(GPIO5)
 + b - PIN2(GPIO4)
 + c - PIN3(GPIO0)
-+ d - PIN4(GPIO2)
++ d - PIN4(GPIO16)
 + e - PIN5(GPIO14)
 + f - PIN6(GPIO12)
 + g - PIN7(GPIO13)
